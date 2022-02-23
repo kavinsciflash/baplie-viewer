@@ -7,49 +7,37 @@
     <pattern id="pattern-2" width="1" height="1" viewBox="4.4 5.234 46.726 46.726">
       <use xlink:href="#image"/>
     </pattern>
-    <pattern id="pattern-3" width="1" height="1" viewBox="4.085 4.86 43.389 43.389">
-      <use transform="scale(0.929)" xlink:href="#image"/>
+    <pattern id="pattern-3" width="1" height="1" viewBox="3.064 3.645 32.542 32.542">
+      <use transform="scale(0.696)" xlink:href="#image"/>
     </pattern>
-    <clipPath id="clip-Skin">
+    <clipPath id="clip-Signup_1">
       <rect width="1366" height="768"/>
     </clipPath>
   </defs>
-  <g id="Skin" clip-path="url(#clip-Skin)">
+  <g id="Signup_1" data-name="Signup – 1" clip-path="url(#clip-Signup_1)">
     <rect width="1366" height="768" fill="#fff"/>
     <circle id="Realistic-yellow-ball" cx="28" cy="28" r="28" transform="translate(1277 665)" fill="url(#pattern)"/>
     <g id="Group_282" data-name="Group 282" transform="translate(-60)">
-      <g id="Rectangle_2307" data-name="Rectangle 2307" transform="translate(-33 -305)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.28">
+      <g id="Rectangle_2307" data-name="Rectangle 2307" transform="translate(-33 -305)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.45">
         <rect width="488" height="689" rx="75" stroke="none"/>
         <rect x="1" y="1" width="486" height="687" rx="74" fill="none"/>
       </g>
-      <g id="Rectangle_2308" data-name="Rectangle 2308" transform="translate(-103 -235)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.28">
+      <g id="Rectangle_2308" data-name="Rectangle 2308" transform="translate(-103 -235)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.45">
         <rect width="488" height="689" rx="75" stroke="none"/>
         <rect x="1" y="1" width="486" height="687" rx="74" fill="none"/>
       </g>
       <circle id="Realistic-yellow-ball-2" data-name="Realistic-yellow-ball" cx="28" cy="28" r="28" transform="translate(309 417)" fill="url(#pattern-2)"/>
     </g>
     <g id="Group_283" data-name="Group 283" transform="translate(1412 788) rotate(180)">
-      <g id="Rectangle_2307-2" data-name="Rectangle 2307" transform="translate(-33 -305)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.28">
+      <g id="Rectangle_2307-2" data-name="Rectangle 2307" transform="translate(-33 -305)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.45">
         <rect width="488" height="689" rx="75" stroke="none"/>
         <rect x="1" y="1" width="486" height="687" rx="74" fill="none"/>
       </g>
-      <g id="Rectangle_2308-2" data-name="Rectangle 2308" transform="translate(-103 -235)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.28">
+      <g id="Rectangle_2308-2" data-name="Rectangle 2308" transform="translate(-103 -235)" fill="none" stroke="#e0cc54" stroke-width="2" opacity="0.45">
         <rect width="488" height="689" rx="75" stroke="none"/>
         <rect x="1" y="1" width="486" height="687" rx="74" fill="none"/>
       </g>
     </g>
-    <g id="Group_sub" data-name="Group sub" transform="translate(0 325)">
-      <g id="Component_98_30" data-name="Component 98 – 30" transform="translate(0 60)">
-        <path id="Path_258" data-name="Path 258" d="M5.222,0H229.778A5.115,5.115,0,0,1,235,5V30a5.115,5.115,0,0,1-5.222,5H5.222A5.115,5.115,0,0,1,0,30V5A5.115,5.115,0,0,1,5.222,0Z" fill="none"/>
-        <text id="Get_Help" data-name="Get Help" transform="translate(81 22)" fill="#fff" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" opacity="0.6"><tspan x="0" y="0">Get Help</tspan></text>
-      </g>
-    </g>
-    <g id="Group_sub-2" data-name="Group sub" transform="translate(0 360)">
-      <g id="Component_98_31" data-name="Component 98 – 31" transform="translate(0 60)">
-        <path id="Path_258-2" data-name="Path 258" d="M5.222,0H229.778A5.115,5.115,0,0,1,235,5V30a5.115,5.115,0,0,1-5.222,5H5.222A5.115,5.115,0,0,1,0,30V5A5.115,5.115,0,0,1,5.222,0Z" fill="none"/>
-        <text id="Logout" transform="translate(81 22)" fill="#fff" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500" opacity="0.6"><tspan x="0" y="0">Logout</tspan></text>
-      </g>
-    </g>
-    <circle id="Realistic-yellow-ball-3" data-name="Realistic-yellow-ball" cx="26" cy="26" r="26" transform="translate(629 207)" fill="url(#pattern-3)"/>
+    <circle id="Realistic-yellow-ball-3" data-name="Realistic-yellow-ball" cx="19.5" cy="19.5" r="19.5" transform="translate(749 87)" fill="url(#pattern-3)"/>
   </g>
 </svg>

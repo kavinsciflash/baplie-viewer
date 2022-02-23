@@ -86,7 +86,7 @@ const ForgotPassword = ({ actionCreator, authentication }) => {
 
           <div css={styles.formButtonLinks}>
             <Typography><Link to="/signup" css={styles.link}>Sign Up / Create New Account</Link></Typography>
-            <Box sx={{ mt: '10px' }}><Typography><Link to="/login" css={styles.link}>Back To Login</Link></Typography></Box>
+            <Box sx={{ mt: '10px' }}><Typography><Link to="/login" css={styles.link}>Back To <span id='disable'>Login</span></Link></Typography></Box>
           </div>
 
           {/* <Link to="/login" css={styles.link}>
