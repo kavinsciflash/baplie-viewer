@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.ff70229b.chunk.js": "/baplie-viewer/static/js/0.ff70229b.chunk.js",
+    "static/js/1.ea4c0ad0.chunk.js": "/baplie-viewer/static/js/1.ea4c0ad0.chunk.js",
+    "main.css": "/baplie-viewer/static/css/main.3683c6ac.chunk.css",
+    "main.js": "/baplie-viewer/static/js/main.d6b65383.chunk.js",
+    "runtime-main.js": "/baplie-viewer/static/js/runtime-main.59750d36.js",
+    "static/css/4.10cd779e.chunk.css": "/baplie-viewer/static/css/4.10cd779e.chunk.css",
+    "static/js/4.6f7f2ff2.chunk.js": "/baplie-viewer/static/js/4.6f7f2ff2.chunk.js",
+    "static/js/5.b6fb6732.chunk.js": "/baplie-viewer/static/js/5.b6fb6732.chunk.js",
+    "static/js/6.76928637.chunk.js": "/baplie-viewer/static/js/6.76928637.chunk.js",
+    "static/js/7.50b9fa91.chunk.js": "/baplie-viewer/static/js/7.50b9fa91.chunk.js",
+    "static/js/8.a8e3bcbd.chunk.js": "/baplie-viewer/static/js/8.a8e3bcbd.chunk.js",
+    "static/js/9.140f2105.chunk.js": "/baplie-viewer/static/js/9.140f2105.chunk.js",
+    "static/js/10.2a3f9068.chunk.js": "/baplie-viewer/static/js/10.2a3f9068.chunk.js",
+    "static/js/11.f2893377.chunk.js": "/baplie-viewer/static/js/11.f2893377.chunk.js",
+    "static/js/12.773803e7.chunk.js": "/baplie-viewer/static/js/12.773803e7.chunk.js",
+    "index.html": "/baplie-viewer/index.html",
+    "precache-manifest.48c815e0a0f318f26be6f3210bc5634e.js": "/baplie-viewer/precache-manifest.48c815e0a0f318f26be6f3210bc5634e.js",
+    "service-worker.js": "/baplie-viewer/service-worker.js",
+    "static/js/1.ea4c0ad0.chunk.js.LICENSE.txt": "/baplie-viewer/static/js/1.ea4c0ad0.chunk.js.LICENSE.txt",
+    "static/js/4.6f7f2ff2.chunk.js.LICENSE.txt": "/baplie-viewer/static/js/4.6f7f2ff2.chunk.js.LICENSE.txt",
+    "static/js/5.b6fb6732.chunk.js.LICENSE.txt": "/baplie-viewer/static/js/5.b6fb6732.chunk.js.LICENSE.txt",
+    "static/media/Boy.svg": "/baplie-viewer/static/media/Boy.7d1b61dd.svg",
+    "static/media/Skin.svg": "/baplie-viewer/static/media/Skin.94e65a99.svg",
+    "static/media/dashboard-bg.png": "/baplie-viewer/static/media/dashboard-bg.c27051eb.png",
+    "static/media/loadingIcon.png": "/baplie-viewer/static/media/loadingIcon.272bbcb4.png",
+    "static/media/logo.svg": "/baplie-viewer/static/media/logo.d4265e66.svg",
+    "static/media/index.css": "/baplie-viewer/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2",
+    "static/media/satoriLogo.svg": "/baplie-viewer/static/media/satoriLogo.da97684a.svg",
+    "static/media/satori_logo.svg": "/baplie-viewer/static/media/satori_logo.2edbec3d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59750d36.js",
+    "static/css/4.10cd779e.chunk.css",
+    "static/js/4.6f7f2ff2.chunk.js",
+    "static/css/main.3683c6ac.chunk.css",
+    "static/js/main.d6b65383.chunk.js"
+  ]
+}
