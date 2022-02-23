@@ -9,7 +9,7 @@ import * as Yup from 'yup';
 import { connect } from 'react-redux';
 import { types, actionCreator } from '../../redux';
 import backgroundImage from '../../assets/images/Skin.svg';
-// import backgroundImage1 from '../../assets/images/Boy.svg';
+import backgroundImage1 from '../../assets/images/Boy.svg';
 
 import backgroundImage2 from '../../assets/images/satori_logo.svg';
 import logoImage from '../../assets/images/logo.svg';
@@ -44,7 +44,7 @@ const Login = ({ authentication, actionCreator }) => {
 
   return (
     <div css={styles.container}>
-      {/* <div css={styles.Boy}><img src={backgroundImage1} /></div> */}
+       <div css={styles.Boy}><img src={backgroundImage1} /></div> 
       <div css={styles.Logo}><img css={styles.Size} src={backgroundImage2} /></div>
       <div className="container" css={styles.content}>
         <form css={styles.form} onSubmit={formik.handleSubmit}>
@@ -124,6 +124,7 @@ const styles = {
   container: {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
+    position:'relative'
   },
   Size: {
     height: '20px',
@@ -140,13 +141,14 @@ const styles = {
   Boy: {
     top: '20%',
     left: '7%',
-    position: 'fixed',
+    position: 'absolute',
     // zIndex:-1
   },
   Logo: {
     position: 'fixed',
     right: 5,
     bottom: 5,
+    
   },
   content: {
     display: 'flex',
@@ -179,6 +181,10 @@ const styles = {
     marginTop: '20px',
     display: 'flex',
     justifyContent: 'space-between',
+    zIndex:1,
+  },
+  formButtonLinks:{
+    zIndex:1
   },
   input: {
     marginBottom: '16px',

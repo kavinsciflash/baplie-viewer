@@ -19,8 +19,9 @@ import { Box, padding } from '@mui/system';
 import flogo from '../../assets/images/flogo.png';
 import inlogo from '../../assets/images/inlogo.png';
 import glogo from '../../assets/images/glogo.png';
-// import backgroundImage1 from '../../assets/images/Boy.svg';
+import backgroundImage1 from '../../assets/images/Boy.svg';
 import backgroundImage2 from '../../assets/images/satori_logo.svg';
+import zIndex from '@mui/material/styles/zIndex';
 
 const Signup = ({ authentication, actionCreator }) => {
   const { isSubmitting } = authentication;
@@ -85,7 +86,7 @@ const Signup = ({ authentication, actionCreator }) => {
     <div css={styles.container}>
 
       <div className="container" css={styles.content}>
-      {/* <div css={styles.Boy}><img src={backgroundImage1} /></div> */}
+       <div css={styles.Boy}><img src={backgroundImage1} /></div> 
       <div css={styles.Logo}><img css={styles.Size} src={backgroundImage2} /></div>
         <form css={styles.formy} onSubmit={formik.handleSubmit}>
 
@@ -253,6 +254,7 @@ const styles = {
   container: {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
+    position:'relative'
   },
   content: {
     display: 'flex',
@@ -302,11 +304,7 @@ const styles = {
     height: '20px',
     weight: '20px'
   },
-  Logo: {
-    position: 'fixed',
-    right: 5,
-    bottom: 5,
-  },
+
   dividerContainer: {
     display: 'flex',
     flexDirection: 'colmn',
@@ -314,6 +312,7 @@ const styles = {
     alignItems: 'center',
     flex: 1,
     margin: '20px 0',
+    zIndex:1
   },
   dividerLabel: {
     margin: '0 20px',
@@ -370,7 +369,8 @@ const styles = {
     justifyContent: 'space-between',
   },
   formButtonLinks: {
-    textAlign: 'center'
+    textAlign: 'center',
+    zIndex:1
   },
   input: {
     marginBottom: '16px',

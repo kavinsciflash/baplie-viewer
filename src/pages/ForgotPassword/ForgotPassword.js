@@ -13,6 +13,8 @@ import backgroundImage from '../../assets/images/Skin.svg';
 // import logoImage from '../../assets/images/logo.svg';
 // import satoriLogo from '../../assets/images/satoriLogo.svg';
 import InputText from '../../components/common/InputText';
+import backgroundImage1 from '../../assets/images/Boy.svg';
+import backgroundImage2 from '../../assets/images/satori_logo.svg';
 
 const ForgotPassword = ({ actionCreator, authentication }) => {
   const { isSubmitting } = authentication;
@@ -34,6 +36,8 @@ const ForgotPassword = ({ actionCreator, authentication }) => {
 
   return (
     <div css={styles.container}>
+      <div css={styles.Boy}><img src={backgroundImage1} /></div>
+      <div css={styles.Logo}><img css={styles.Size} src={backgroundImage2} /></div>
       <div className="container" css={styles.content}>
 
         <form css={styles.form} onSubmit={formik.handleSubmit}>
@@ -74,18 +78,18 @@ const ForgotPassword = ({ actionCreator, authentication }) => {
             <div css={styles.divider}></div>
           </div>
           {/* <div css={styles.formButtonLinks}> */}
-            {/* <Link to="/signup" css={styles.link}>
+          {/* <Link to="/signup" css={styles.link}>
               <Button disableElevation css={styles.button}>
                 Sign Up / Create New Account
               </Button>
             </Link> */}
-            
-            <div css={styles.formButtonLinks}>
+
+          <div css={styles.formButtonLinks}>
             <Typography><Link to="/signup" css={styles.link}>Sign Up / Create New Account</Link></Typography>
-            <Box sx={{mt:'10px'}}><Typography><Link to="/login" css={styles.link}>Back To Login</Link></Typography></Box>
-            </div>
-            
-            {/* <Link to="/login" css={styles.link}>
+            <Box sx={{ mt: '10px' }}><Typography><Link to="/login" css={styles.link}>Back To Login</Link></Typography></Box>
+          </div>
+
+          {/* <Link to="/login" css={styles.link}>
               <Button disableElevation css={styles.button}>
                 Back to Login
               </Button>
@@ -141,6 +145,7 @@ const styles = {
     maxWidth: '480px',
     display: 'flex',
     flexDirection: 'column',
+    zIndex:1
   },
   formBottom: {
     display: 'flex',
@@ -151,6 +156,7 @@ const styles = {
     flexDirection: 'column ',
     alignItems: 'left',
     justifyContent: 'left',
+    zIndex:1
   },
   button: {
     fontWeight: '600',
@@ -193,5 +199,20 @@ const styles = {
   divider: {
     flex: 1,
     border: 'solid thin #a5a5a5',
+  },
+  Boy: {
+    top: '20%',
+    left: '7%',
+    position: 'fixed',
+    // zIndex:-1
+  },
+  Logo: {
+    position: 'fixed',
+    right: 5,
+    bottom: 5,
+  },
+  Size: {
+    height: '20px',
+    weight: '20px'
   },
 };
