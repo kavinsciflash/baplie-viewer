@@ -9,7 +9,8 @@ import * as Yup from 'yup';
 import { connect } from 'react-redux';
 import { types, actionCreator } from '../../redux';
 import backgroundImage from '../../assets/images/Skin.svg';
-import backgroundImage1 from '../../assets/images/Boy.svg';
+// import backgroundImage1 from '../../assets/images/Boy.svg';
+
 import backgroundImage2 from '../../assets/images/satori_logo.svg';
 import logoImage from '../../assets/images/logo.svg';
 import satoriLogo from '../../assets/images/satoriLogo.svg';
@@ -43,7 +44,7 @@ const Login = ({ authentication, actionCreator }) => {
 
   return (
     <div css={styles.container}>
-      <div css={styles.Boy}><img src={backgroundImage1} /></div>
+      {/* <div css={styles.Boy}><img src={backgroundImage1} /></div> */}
       <div css={styles.Logo}><img css={styles.Size} src={backgroundImage2} /></div>
       <div className="container" css={styles.content}>
         <form css={styles.form} onSubmit={formik.handleSubmit}>

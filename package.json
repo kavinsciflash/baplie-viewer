@@ -1,5 +1,5 @@
 {
-  "homepage": "",
+  "homepage": "https://kavinsciflash.github.io/baplie-viewer",
   "name": "baplie-viewer",
   "version": "0.0.109",
   "private": true,
@@ -58,11 +58,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

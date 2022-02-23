@@ -19,7 +19,7 @@ import { Box, padding } from '@mui/system';
 import flogo from '../../assets/images/flogo.png';
 import inlogo from '../../assets/images/inlogo.png';
 import glogo from '../../assets/images/glogo.png';
-import backgroundImage1 from '../../assets/images/Boy.svg';
+// import backgroundImage1 from '../../assets/images/Boy.svg';
 import backgroundImage2 from '../../assets/images/satori_logo.svg';
 
 const Signup = ({ authentication, actionCreator }) => {
@@ -85,7 +85,7 @@ const Signup = ({ authentication, actionCreator }) => {
     <div css={styles.container}>
 
       <div className="container" css={styles.content}>
-      <div css={styles.Boy}><img src={backgroundImage1} /></div>
+      {/* <div css={styles.Boy}><img src={backgroundImage1} /></div> */}
       <div css={styles.Logo}><img css={styles.Size} src={backgroundImage2} /></div>
         <form css={styles.formy} onSubmit={formik.handleSubmit}>
 
