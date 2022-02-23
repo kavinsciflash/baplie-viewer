@@ -108,3 +108,12 @@ body {
   overflow-y: auto;
   position: relative;
 }
+@media screen and (max-width:480px) {
+  
+  .design{
+    width: 100px;
+    height: 30px;
+    left: 10px;
+  }
+  
+}

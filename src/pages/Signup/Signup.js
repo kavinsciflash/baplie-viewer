@@ -225,6 +225,7 @@ const Signup = ({ authentication, actionCreator }) => {
                 <Typography> Already have an account? <Link to="/login" css={styles.buttonLink}> Log In</Link></Typography>
               </div>
               <Button
+                className='design'
                 variant="contained"
                 color="primary"
                 disabled={!formik.isValid || isSubmitting}
