@@ -1,83 +1,87 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7e2651ec9c643203929a85a4d389733",
+    "revision": "f65effa99325f6fac517c7c54c91e654",
     "url": "/baplie-viewer/index.html"
   },
   {
-    "revision": "f903e51bd05924e54c6d",
+    "revision": "8400dea871343c02865d",
     "url": "/baplie-viewer/static/css/4.10cd779e.chunk.css"
   },
   {
-    "revision": "9a07a70affa0244f70b0",
+    "revision": "bb7e815ff4efd9b818e3",
     "url": "/baplie-viewer/static/css/main.3683c6ac.chunk.css"
   },
   {
-    "revision": "7ab674eea7117a44ff4f",
-    "url": "/baplie-viewer/static/js/0.e23d74eb.chunk.js"
+    "revision": "7b0dbd5277b7f19175e7",
+    "url": "/baplie-viewer/static/js/0.ea1d5546.chunk.js"
   },
   {
-    "revision": "eb2be5d4e9b9b57638db",
-    "url": "/baplie-viewer/static/js/1.81785540.chunk.js"
+    "revision": "a4726a6bb9befed3451a",
+    "url": "/baplie-viewer/static/js/1.e70bda38.chunk.js"
   },
   {
     "revision": "9312913abd3ec291e09a77758d4b839e",
-    "url": "/baplie-viewer/static/js/1.81785540.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/1.e70bda38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9381501b15e94ee0784d",
-    "url": "/baplie-viewer/static/js/10.2df4a9b8.chunk.js"
+    "revision": "433a580ff0f6cda1c8a6",
+    "url": "/baplie-viewer/static/js/10.6ddab09e.chunk.js"
   },
   {
-    "revision": "d4ee31ca0fee0b661c70",
-    "url": "/baplie-viewer/static/js/11.32e2cc18.chunk.js"
+    "revision": "db93058b0676eb846c66",
+    "url": "/baplie-viewer/static/js/11.b0a8db45.chunk.js"
   },
   {
-    "revision": "487ffb2e91d490d4f5a8",
-    "url": "/baplie-viewer/static/js/12.f6969964.chunk.js"
+    "revision": "637da0dfa773bb6aea30",
+    "url": "/baplie-viewer/static/js/12.9072510e.chunk.js"
   },
   {
-    "revision": "f903e51bd05924e54c6d",
-    "url": "/baplie-viewer/static/js/4.6f7f2ff2.chunk.js"
+    "revision": "8400dea871343c02865d",
+    "url": "/baplie-viewer/static/js/4.c7fddd23.chunk.js"
   },
   {
     "revision": "cfcf3bdf61240f939f4f92d65c16f3bd",
-    "url": "/baplie-viewer/static/js/4.6f7f2ff2.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/4.c7fddd23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0bf5a1c2e34c4fd68570",
-    "url": "/baplie-viewer/static/js/5.af604111.chunk.js"
+    "revision": "b26b9a0e480d14402108",
+    "url": "/baplie-viewer/static/js/5.0dcc0239.chunk.js"
   },
   {
     "revision": "c360eff85ca112d098c080b19dff9b78",
-    "url": "/baplie-viewer/static/js/5.af604111.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/5.0dcc0239.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "993c30cdc912b5899bbb",
-    "url": "/baplie-viewer/static/js/6.ed146517.chunk.js"
+    "revision": "05dd13b74302c2b842d3",
+    "url": "/baplie-viewer/static/js/6.a25647de.chunk.js"
   },
   {
-    "revision": "d69a26d58b7a5fce432d",
-    "url": "/baplie-viewer/static/js/7.54aefe98.chunk.js"
+    "revision": "f63e9e3885593b7f7e35",
+    "url": "/baplie-viewer/static/js/7.3d279474.chunk.js"
   },
   {
-    "revision": "d1fd415c28fe6d638757",
-    "url": "/baplie-viewer/static/js/8.c1ccdd8b.chunk.js"
+    "revision": "314c22edddd2eb512f35",
+    "url": "/baplie-viewer/static/js/8.d6430751.chunk.js"
   },
   {
-    "revision": "64d213ff8330c1ecaa71",
-    "url": "/baplie-viewer/static/js/9.5c241dc2.chunk.js"
+    "revision": "ba468baa0d0d406d6564",
+    "url": "/baplie-viewer/static/js/9.e6f33d21.chunk.js"
   },
   {
-    "revision": "9a07a70affa0244f70b0",
-    "url": "/baplie-viewer/static/js/main.e2977294.chunk.js"
+    "revision": "bb7e815ff4efd9b818e3",
+    "url": "/baplie-viewer/static/js/main.f34c5489.chunk.js"
   },
   {
-    "revision": "b9b469c711f7d96eb3f5",
-    "url": "/baplie-viewer/static/js/runtime-main.b0706224.js"
+    "revision": "81052de9926d9acf952f",
+    "url": "/baplie-viewer/static/js/runtime-main.2b17737e.js"
   },
   {
-    "revision": "94e65a99951435cbc359ab4e72bc2dae",
-    "url": "/baplie-viewer/static/media/Skin.94e65a99.svg"
+    "revision": "7d1b61dd953a6b67c57bd41ac9add512",
+    "url": "/baplie-viewer/static/media/Boy.7d1b61dd.svg"
+  },
+  {
+    "revision": "052fdf177e063055561d87c96ec962b6",
+    "url": "/baplie-viewer/static/media/Skin.052fdf17.svg"
   },
   {
     "revision": "c27051ebb3f4563d5b076a0f13d9f19a",
