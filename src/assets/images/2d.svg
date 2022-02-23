@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.035" height="35.945" viewBox="0 0 36.035 35.945">
+  <g id="Group_744" data-name="Group 744" transform="translate(-1248 -17.038)">
+    <g id="_3d_2_" data-name="3d (2)" transform="translate(1248 17.038)">
+      <path id="Path_1071" data-name="Path 1071" d="M29.726,12V29.9a5.918,5.918,0,0,1-5.911,5.911H5.911A5.918,5.918,0,0,1,0,29.9V12A5.918,5.918,0,0,1,5.911,6.085h17.9A5.917,5.917,0,0,1,29.726,12Z" transform="translate(0 0.135)" fill="#0fd"/>
+      <path id="Path_1072" data-name="Path 1072" d="M29.3,12V29.9a5.918,5.918,0,0,1-5.911,5.911H14.436V6.085h8.952A5.917,5.917,0,0,1,29.3,12Z" transform="translate(0.427 0.135)" fill="#0fd"/>
+      <g id="Group_743" data-name="Group 743" transform="translate(5.78 14.831)">
+        <path id="Path_1074" data-name="Path 1074" d="M15.085,26.461V15.144a.6.6,0,0,1,.278-.487,1.155,1.155,0,0,1,.713-.209h3.077a4.406,4.406,0,0,1,2.972.956,3.781,3.781,0,0,1,1.113,3.025v4.746A3.78,3.78,0,0,1,22.126,26.2a4.4,4.4,0,0,1-2.972.956H16.076a1.155,1.155,0,0,1-.713-.209A.6.6,0,0,1,15.085,26.461Zm2.26-1.286h1.808q1.825,0,1.825-2V18.43q0-2-1.825-2H17.345v8.744Z" transform="translate(-5.333 -14.449)" fill="#010b31"/>
+        <text id="_2" data-name="2" transform="translate(-1.78 13.169)" fill="#010b31" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+      </g>
+      <path id="Path_1075" data-name="Path 1075" d="M35.75,10.586V25.08a1.055,1.055,0,1,1-2.109,0V10.586a8.442,8.442,0,0,0-8.433-8.433H10.713a1.055,1.055,0,0,1,0-2.109H25.207A10.554,10.554,0,0,1,35.75,10.586Z" transform="translate(0.286 -0.044)" fill="#00e6ff"/>
+    </g>
+  </g>
+</svg>

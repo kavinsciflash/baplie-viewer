@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_68" data-name="Ellipse 68" cx="10.5" cy="10.5" r="10.5" transform="translate(1330 209)" fill="#00cfba" stroke="#00cfba" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Container_Information" data-name="Container Information" transform="translate(-1330 -209)" clip-path="url(#clip-path)">
+    <g id="menu_7_" data-name="menu (7)" transform="translate(1330 209)">
+      <g id="Group_854" data-name="Group 854">
+        <g id="Group_853" data-name="Group 853">
+          <path id="Path_1084" data-name="Path 1084" d="M10.4-.047A10.444,10.444,0,1,0,20.841,10.4,10.444,10.444,0,0,0,10.4-.047Zm0,19.147a8.7,8.7,0,1,1,8.7-8.7A8.7,8.7,0,0,1,10.4,19.1Z" transform="translate(0.047 0.047)" fill="#00cfba"/>
+          <path id="Path_1085" data-name="Path 1085" d="M15.527,6.953h-8.7a.87.87,0,0,0,0,1.741h8.7a.87.87,0,0,0,0-1.741Z" transform="translate(-0.731 -0.861)" fill="#00cfba"/>
+          <path id="Path_1086" data-name="Path 1086" d="M15.527,10.953h-8.7a.87.87,0,1,0,0,1.741h8.7a.87.87,0,0,0,0-1.741Z" transform="translate(-0.731 -1.38)" fill="#00cfba"/>
+          <path id="Path_1087" data-name="Path 1087" d="M15.527,14.953h-8.7a.87.87,0,1,0,0,1.741h8.7a.87.87,0,0,0,0-1.741Z" transform="translate(-0.731 -1.898)" fill="#00cfba"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

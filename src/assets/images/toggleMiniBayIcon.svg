@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2848" data-name="Rectangle 2848" width="26" height="26" transform="translate(684 82)" fill="aqua" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_149" data-name="Mask Group 149" transform="translate(-684 -82)" clip-path="url(#clip-path)">
+    <g id="tile" transform="translate(684 82)">
+      <g id="Group_848" data-name="Group 848">
+        <g id="Group_847" data-name="Group 847">
+          <path id="Path_1081" data-name="Path 1081" d="M11.053,0H1A1,1,0,0,0,0,1V11.053a1,1,0,0,0,1,1H11.053a1,1,0,0,0,1-1V1A1,1,0,0,0,11.053,0Zm-1,10.048H2.01V2.01h8.039v8.039Z" fill="aqua"/>
+        </g>
+      </g>
+      <g id="Group_850" data-name="Group 850" transform="translate(14.068)">
+        <g id="Group_849" data-name="Group 849">
+          <path id="Path_1082" data-name="Path 1082" d="M31.515,0H21.466a1,1,0,0,0-1,1V11.053a1,1,0,0,0,1,1H31.515a1,1,0,0,0,1-1V1A1,1,0,0,0,31.515,0Zm-1,10.048H22.471V2.01H30.51Z" transform="translate(-20.461)" fill="aqua"/>
+        </g>
+      </g>
+      <g id="Group_852" data-name="Group 852" transform="translate(6.875 14.068)">
+        <g id="Group_851" data-name="Group 851">
+          <path id="Path_1083" data-name="Path 1083" d="M11.053,20.461H1a1,1,0,0,0-1,1V31.515a1,1,0,0,0,1,1H11.053a1,1,0,0,0,1-1V21.466A1,1,0,0,0,11.053,20.461Zm-1,10.048H2.01V22.471h8.039V30.51Z" transform="translate(0 -20.461)" fill="aqua"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

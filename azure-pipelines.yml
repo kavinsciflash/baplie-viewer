@@ -1,0 +1,112 @@
+pool:
+  vmImage: 'ubuntu-18.04'
+variables:
+ app_version: "1.0"
+ 
+stages: 
+- stage: build_publish_stage
+  displayName: 'Build & Publish Stage'
+  jobs: 
+  - job: Build_Publish_ANGULAR
+    displayName: 'Build and Publish for angular-frontend'
+    steps: 
+    
+    # - script: |
+    #    sed -i -e s/DEPLOYMENT_DIRECTORY_PATH/$(echo ${DEPLOYMENT_DIRECTORY} | sed 's_/_\\/_g')/g new_webui_deployment/run_application.sh
+    #    sed -i -e s/DEPLOYMENT_DIRECTORY_PATH/$(echo ${DEPLOYMENT_DIRECTORY} | sed 's_/_\\/_g')/g new_webui_deployment/before_install.sh
+    #    sed -i -e s/replace_docker_registry/$(echo ${REPLACE_DOCKER_REGISTRY} | sed 's_/_\\/_g')/g new_webui_deployment/docker-compose-webui.yml
+    #    sed -i -e s/replace_docker_repo/$(echo ${REPLACE_DOCKER_REPO} | sed 's_/_\\/_g')/g new_webui_deployment/docker-compose-webui.yml
+    #    sed -i -e s/replace_docker_version/$(Build.SourceBranchName)-$(app_version).$(Build.BuildId)/g new_webui_deployment/docker-compose-webui.yml
+
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '15.11.0'
+      displayName: 'Install angular'
+      
+    - task: SonarQubePrepare@4
+      inputs:
+        SonarQube: 'azure-devops-sonar'
+        scannerMode: 'CLI'
+        configMode: 'file'
+        extraProperties: |
+          # Additional properties that will be passed to the scanner, 
+          # Put one key=value per line, example:
+          # sonar.exclusions=**/*.bin
+          sonar.projectName=sonata-bablie-viewer
+          sonar.projectKey=sonata-bablie-viewer   
+    
+    - script: |
+        npm install -g @angular/cli
+        npm install
+        npm run build
+      displayName: 'angular install and build'
+
+    - task: SonarQubeAnalyze@4
+    
+    - task: SonarQubePublish@4
+      inputs:
+        pollingTimeoutSec: '300'  
+
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)/build/'
+        includeRootFolder: false 
+        archiveType: 'zip' 
+        tarCompression: 'gz' 
+        archiveFile: '$(Build.ArtifactStagingDirectory)/bablie-$(Build.SourceBranchName)-$(app_version).$(Build.BuildId).zip' 
+        replaceExistingArchive: false 
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)/bablie-$(Build.SourceBranchName)-$(app_version).$(Build.BuildId).zip'
+        ArtifactName: 'Bablie_Build'
+
+    # - task: PublishBuildArtifacts@1
+    #   inputs:
+    #     PathtoPublish: '$(Build.ArtifactStagingDirectory)/new_webui_deployment-$(Build.SourceBranchName)-$(app_version).$(Build.BuildId).zip'
+    #     ArtifactName: 'Webui Deployment'  
+
+- stage: deploy
+  displayName: 'Depoy Stage'
+  jobs:
+  - deployment: deploybablie
+    displayName:  "Deployment for bablie"
+    environment: 'New-Bablie-$(ENVIRONMENT)'
+    strategy:
+     runOnce:
+      deploy:
+       steps:
+        - checkout: none
+
+        - task: DownloadBuildArtifacts@0
+          inputs:
+            buildType: 'current'
+            downloadType: 'single'
+            artifactName: 'Bablie_Build'
+            downloadPath: '$(System.ArtifactsDirectory)'
+        - task: CopyFilesOverSSH@0
+          inputs:
+            sshEndpoint: '$(VM_CONNECTION)'
+            sourceFolder: '$(System.ArtifactsDirectory)/Bablie_Build/'
+            contents: '**'
+            targetFolder: '/home/ubuntu/new-webui-bab-$(ENVIRONMENT)'
+            readyTimeout: '20000'
+            overwrite: true
+
+        - task: SSH@0
+          displayName: "Extract downloaded Artifact"
+          inputs:
+            sshEndpoint: '$(VM_CONNECTION)'
+            runOptions: 'inline'
+            inline: |
+              cd  /home/ubuntu/new-webui-bab-$(ENVIRONMENT)/
+              ls -lrth
+              cd /var/www/html/$(ENVIRONMENT)/
+              sudo rm -rf *
+              sudo unzip -o /home/ubuntu/new-webui-bab-$(ENVIRONMENT)/bablie-$(Build.SourceBranchName)-$(app_version).$(Build.BuildId).zip
+              ls -lrth
+              cd  /home/ubuntu/new-webui-bab-$(ENVIRONMENT)/
+              # sudo rm -fvr !('bablie-$(Build.SourceBranchName)-$(app_version).$(Build.BuildId).zip')
+              sudo systemctl restart apache2
+            readyTimeout: '20000'    
+

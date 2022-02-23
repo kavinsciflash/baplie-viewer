@@ -1,0 +1,110 @@
+@import '../scss/base.scss';
+
+#root {
+  overflow: hidden;
+}
+
+body {
+  color: #ffffff;
+}
+
+// #main-grid{
+  .ag-header-row.ag-header-row-column,
+  .ag-header 
+  {
+    background-color: #10958e !important;
+    color: white !important
+  }
+  .ag-row-selected{
+    background-color: #353c5a !important;
+  }
+
+  .ag-side-buttons,
+  .ag-paging-panel,
+  .ag-paging-button,
+  #page-size select
+  {
+    background-color: #010c32;
+    color: white !important;
+    border: 0px !important;
+  }
+  .ag-theme-alpine .ag-root-wrapper{
+    border: 0px !important;
+  }
+  .ag-theme-alpine .ag-row-no-focus.ag-row,
+  .ag-theme-alpine .ag-row-selected.ag-row,
+  .ag-theme-alpine .ag-row-focus.ag-row
+  {
+    background-color: #010c32;
+    color: #ccced6;
+    border-bottom: 1px solid #00e6ff;
+  }
+  .ag-body-viewport,
+  .ag-tool-panel-wrapper,
+  .ag-tool-panel-wrapper > div,
+  .ag-theme-alpine .ag-column-drop-empty-message,
+  .ag-filter-toolpanel-header,
+  .ag-filter-toolpanel-instance-filter,
+  .ag-icon
+  {
+    background-color: #010c32 !important;
+    color: #ccced6 !important;
+  }
+  .ag-tool-panel-wrapper{border-right: 0 !important;}
+  .ag-column-panel > div{
+    border-bottom: 1px solid #00e6ff !important;
+  }
+  .ag-theme-alpine .ag-header-icon{
+    color: var(--ag-secondary-foreground-color, var(--ag-foreground-color, white)) !important
+  }
+  .hide{display: none !important; }
+
+  // div.ag-cell .ag-selection-checkbox,
+  // div.ag-header-cell .ag-checkbox.ag-input-field
+  // {
+  //   display: none !important;
+  // }
+
+  // div.ag-cell[aria-colindex="1"] .ag-selection-checkbox,
+  // div.ag-header-cell[aria-colindex="1"] .ag-checkbox.ag-input-field
+  // {
+  //   display: flex !important;
+  // }
+  .ag-theme-alpine [class^=ag-]:before{
+    font-weight: bold;
+  }
+// }
+
+#disable{
+  background-color: #fff45b;
+  color:#000;
+  width:280px;
+}
+#disable:hover{
+  background-color: #fff45b;
+  color:#000;
+}
+
+
+.ReactModal__Html--open,
+.ReactModal__Body--open {
+  overflow: scroll;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  position: relative;
+}

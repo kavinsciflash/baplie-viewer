@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.397" height="24" viewBox="0 0 36.397 24">
+  <defs>
+    <filter id="Ellipse_39" x="12.2" y="0" width="24.197" height="24" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_475" data-name="Group 475" transform="translate(-30.711 -625)">
+    <g id="Toggle" transform="translate(30.711 628)">
+      <rect id="Rectangle_2158" data-name="Rectangle 2158" width="27" height="14" rx="7" transform="translate(0 2)" fill="aqua" opacity="0.4"/>
+      <g transform="matrix(1, 0, 0, 1, 0, -3)" filter="url(#Ellipse_39)">
+        <ellipse id="Ellipse_39-2" data-name="Ellipse 39" cx="9.099" cy="9" rx="9.099" ry="9" transform="translate(15.2 3)" fill="aqua"/>
+      </g>
+    </g>
+  </g>
+</svg>

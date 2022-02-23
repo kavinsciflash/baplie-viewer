@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_50" data-name="Ellipse 50" cx="12.5" cy="12.5" r="12.5" transform="translate(34 149)" fill="aqua" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_103" data-name="Mask Group 103" transform="translate(-34 -149)" clip-path="url(#clip-path)">
+    <g id="information_5_" data-name="information (5)" transform="translate(34 149)">
+      <g id="Group_498" data-name="Group 498">
+        <g id="Group_497" data-name="Group 497">
+          <path id="Path_967" data-name="Path 967" d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.493,12.493,0,0,0,12.5,0Zm0,23.047A10.547,10.547,0,1,1,23.047,12.5,10.541,10.541,0,0,1,12.5,23.047Z" fill="aqua"/>
+        </g>
+      </g>
+      <g id="Group_500" data-name="Group 500" transform="translate(11.523 10.465)">
+        <g id="Group_499" data-name="Group 499">
+          <path id="Path_968" data-name="Path 968" d="M12.961,10.884a.977.977,0,0,0-.977.977v6.289a.977.977,0,1,0,1.953,0V11.861A.977.977,0,0,0,12.961,10.884Z" transform="translate(-11.984 -10.884)" fill="aqua"/>
+        </g>
+      </g>
+      <g id="Group_502" data-name="Group 502" transform="translate(11.182 6.633)">
+        <g id="Group_501" data-name="Group 501">
+          <circle id="Ellipse_51" data-name="Ellipse 51" cx="1.318" cy="1.318" r="1.318" fill="aqua"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
