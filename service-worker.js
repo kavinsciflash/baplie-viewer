@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/baplie-viewer/precache-manifest.acaafa59176057ef100c8892f40013cd.js"
+  "/baplie-viewer/precache-manifest.8a6bd59875c6fa64b8f3b8e56df3760a.js"
 );
 
 self.addEventListener('message', (event) => {
