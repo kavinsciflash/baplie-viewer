@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7e88b5856557f561dfaceeffda2860c",
+    "revision": "9c6a6cc41fbe25235de475127e1029a8",
     "url": "/baplie-viewer/index.html"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baplie-viewer/static/js/6.e3fdbc17.chunk.js"
   },
   {
-    "revision": "bd3b48e5b2e3ef76e132",
-    "url": "/baplie-viewer/static/js/7.41a1e412.chunk.js"
+    "revision": "9b8375dbed26aaf29bfc",
+    "url": "/baplie-viewer/static/js/7.36d99eae.chunk.js"
   },
   {
     "revision": "b44bcf56a4128a353da1",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baplie-viewer/static/js/main.d12ed288.chunk.js"
   },
   {
-    "revision": "425d32eca04611a22416",
-    "url": "/baplie-viewer/static/js/runtime-main.7b76010b.js"
+    "revision": "cac062de1b7354bb7728",
+    "url": "/baplie-viewer/static/js/runtime-main.e713084c.js"
   },
   {
     "revision": "7d1b61dd953a6b67c57bd41ac9add512",
