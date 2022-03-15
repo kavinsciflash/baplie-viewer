@@ -1,87 +1,99 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebb47dbd321039735f91d26fb3738c89",
+    "revision": "66e1ca715ffed0b3a3e69fb063d00a90",
     "url": "/baplie-viewer/index.html"
   },
   {
-    "revision": "dae8d9ae0ed02717f2ef",
+    "revision": "8f85fdb8cef26222c075",
+    "url": "/baplie-viewer/static/css/10.93afeefa.chunk.css"
+  },
+  {
+    "revision": "434ba41327412028ce3e",
     "url": "/baplie-viewer/static/css/5.10cd779e.chunk.css"
   },
   {
-    "revision": "cca6bc7aeaecc024c8c8",
+    "revision": "fac4df6a07a15389f5b5",
     "url": "/baplie-viewer/static/css/6.a37eab4f.chunk.css"
   },
   {
-    "revision": "5a6203c53dd626d81fd3",
+    "revision": "b15c6609d41c2ec6d7cb",
     "url": "/baplie-viewer/static/css/main.5ad1b549.chunk.css"
   },
   {
-    "revision": "dd8fcc8295bc27647836",
-    "url": "/baplie-viewer/static/js/0.fa84b35a.chunk.js"
+    "revision": "ec20cca1877ff059b62f",
+    "url": "/baplie-viewer/static/js/0.5f44dc8c.chunk.js"
   },
   {
-    "revision": "ee079aea97e32c7c4157",
-    "url": "/baplie-viewer/static/js/1.0700d983.chunk.js"
+    "revision": "6bb4a43f372b5b41417d",
+    "url": "/baplie-viewer/static/js/1.a93597eb.chunk.js"
   },
   {
     "revision": "9312913abd3ec291e09a77758d4b839e",
-    "url": "/baplie-viewer/static/js/1.0700d983.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/1.a93597eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb402228404cdf2db58e",
-    "url": "/baplie-viewer/static/js/10.5df80ca9.chunk.js"
+    "revision": "8f85fdb8cef26222c075",
+    "url": "/baplie-viewer/static/js/10.baed6614.chunk.js"
   },
   {
-    "revision": "72d241b04d0acd886412",
-    "url": "/baplie-viewer/static/js/11.c1a354b1.chunk.js"
+    "revision": "fe07165234709e61e0cdc05d4056de5c",
+    "url": "/baplie-viewer/static/js/10.baed6614.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e5139b358e3d1f54458",
-    "url": "/baplie-viewer/static/js/12.c9c7975e.chunk.js"
+    "revision": "bacfa81da8e64a87fa5d",
+    "url": "/baplie-viewer/static/js/11.f6be4c8b.chunk.js"
   },
   {
-    "revision": "4559f7084ae2acc9deba",
-    "url": "/baplie-viewer/static/js/13.1c18b52c.chunk.js"
+    "revision": "2c72061bd14b75f74705",
+    "url": "/baplie-viewer/static/js/12.e4107785.chunk.js"
   },
   {
-    "revision": "4b4186405a4109e38a15",
-    "url": "/baplie-viewer/static/js/2.75d63994.chunk.js"
+    "revision": "c82d51faaca355cae857",
+    "url": "/baplie-viewer/static/js/13.063c7a98.chunk.js"
+  },
+  {
+    "revision": "b19e8e574dae58b82cfb",
+    "url": "/baplie-viewer/static/js/14.faf40dc5.chunk.js"
+  },
+  {
+    "revision": "6a683fed3ed090d5b3a9",
+    "url": "/baplie-viewer/static/js/2.e0afee62.chunk.js"
   },
   {
     "revision": "3d2d88b7877918a326634499feeab80c",
-    "url": "/baplie-viewer/static/js/2.75d63994.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/2.e0afee62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dae8d9ae0ed02717f2ef",
-    "url": "/baplie-viewer/static/js/5.5e6b2b3b.chunk.js"
+    "revision": "434ba41327412028ce3e",
+    "url": "/baplie-viewer/static/js/5.b8f8414c.chunk.js"
   },
   {
     "revision": "cfcf3bdf61240f939f4f92d65c16f3bd",
-    "url": "/baplie-viewer/static/js/5.5e6b2b3b.chunk.js.LICENSE.txt"
+    "url": "/baplie-viewer/static/js/5.b8f8414c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cca6bc7aeaecc024c8c8",
-    "url": "/baplie-viewer/static/js/6.f7264d52.chunk.js"
+    "revision": "fac4df6a07a15389f5b5",
+    "url": "/baplie-viewer/static/js/6.ccd91e67.chunk.js"
   },
   {
-    "revision": "824f94109fefaf2c2246",
-    "url": "/baplie-viewer/static/js/7.8144c911.chunk.js"
+    "revision": "dea348ad8ef9b8776059",
+    "url": "/baplie-viewer/static/js/7.96fa6f5b.chunk.js"
   },
   {
-    "revision": "6b97a773b1b01bd59cd4",
-    "url": "/baplie-viewer/static/js/8.c7cb4fc0.chunk.js"
+    "revision": "1fab90506e7ced8a8ec7",
+    "url": "/baplie-viewer/static/js/8.6ceeca23.chunk.js"
   },
   {
-    "revision": "a6866172a4583d3c4790",
-    "url": "/baplie-viewer/static/js/9.54af143e.chunk.js"
+    "revision": "41f44583db636060fc15",
+    "url": "/baplie-viewer/static/js/9.cff46538.chunk.js"
   },
   {
-    "revision": "5a6203c53dd626d81fd3",
-    "url": "/baplie-viewer/static/js/main.6e2e2b77.chunk.js"
+    "revision": "b15c6609d41c2ec6d7cb",
+    "url": "/baplie-viewer/static/js/main.b6557930.chunk.js"
   },
   {
-    "revision": "5ada5e99238b2544d34d",
-    "url": "/baplie-viewer/static/js/runtime-main.9ecdae1c.js"
+    "revision": "bcc07246336a61b09208",
+    "url": "/baplie-viewer/static/js/runtime-main.01b8a5b7.js"
   },
   {
     "revision": "7d1b61dd953a6b67c57bd41ac9add512",
