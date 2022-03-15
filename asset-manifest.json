@@ -3,16 +3,16 @@
     "static/js/0.5f44dc8c.chunk.js": "/baplie-viewer/static/js/0.5f44dc8c.chunk.js",
     "static/js/1.a93597eb.chunk.js": "/baplie-viewer/static/js/1.a93597eb.chunk.js",
     "static/js/2.e0afee62.chunk.js": "/baplie-viewer/static/js/2.e0afee62.chunk.js",
-    "main.css": "/baplie-viewer/static/css/main.5ad1b549.chunk.css",
+    "main.css": "/baplie-viewer/static/css/main.1b01ed97.chunk.css",
     "main.js": "/baplie-viewer/static/js/main.b6557930.chunk.js",
-    "runtime-main.js": "/baplie-viewer/static/js/runtime-main.01b8a5b7.js",
+    "runtime-main.js": "/baplie-viewer/static/js/runtime-main.df0d458a.js",
     "static/css/5.10cd779e.chunk.css": "/baplie-viewer/static/css/5.10cd779e.chunk.css",
     "static/js/5.b8f8414c.chunk.js": "/baplie-viewer/static/js/5.b8f8414c.chunk.js",
     "static/css/6.a37eab4f.chunk.css": "/baplie-viewer/static/css/6.a37eab4f.chunk.css",
     "static/js/6.ccd91e67.chunk.js": "/baplie-viewer/static/js/6.ccd91e67.chunk.js",
     "static/js/7.96fa6f5b.chunk.js": "/baplie-viewer/static/js/7.96fa6f5b.chunk.js",
     "static/js/8.6ceeca23.chunk.js": "/baplie-viewer/static/js/8.6ceeca23.chunk.js",
-    "static/js/9.cff46538.chunk.js": "/baplie-viewer/static/js/9.cff46538.chunk.js",
+    "static/js/9.8aba124f.chunk.js": "/baplie-viewer/static/js/9.8aba124f.chunk.js",
     "static/css/10.93afeefa.chunk.css": "/baplie-viewer/static/css/10.93afeefa.chunk.css",
     "static/js/10.baed6614.chunk.js": "/baplie-viewer/static/js/10.baed6614.chunk.js",
     "static/js/11.f6be4c8b.chunk.js": "/baplie-viewer/static/js/11.f6be4c8b.chunk.js",
@@ -20,7 +20,7 @@
     "static/js/13.063c7a98.chunk.js": "/baplie-viewer/static/js/13.063c7a98.chunk.js",
     "static/js/14.faf40dc5.chunk.js": "/baplie-viewer/static/js/14.faf40dc5.chunk.js",
     "index.html": "/baplie-viewer/index.html",
-    "precache-manifest.e5487254b3bd1c882ef981a27fcb628d.js": "/baplie-viewer/precache-manifest.e5487254b3bd1c882ef981a27fcb628d.js",
+    "precache-manifest.94864ae6e4949e4bd49dbfd3798fb5e3.js": "/baplie-viewer/precache-manifest.94864ae6e4949e4bd49dbfd3798fb5e3.js",
     "service-worker.js": "/baplie-viewer/service-worker.js",
     "static/js/1.a93597eb.chunk.js.LICENSE.txt": "/baplie-viewer/static/js/1.a93597eb.chunk.js.LICENSE.txt",
     "static/js/10.baed6614.chunk.js.LICENSE.txt": "/baplie-viewer/static/js/10.baed6614.chunk.js.LICENSE.txt",
@@ -37,10 +37,10 @@
     "static/media/satori_logo.svg": "/baplie-viewer/static/media/satori_logo.2edbec3d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.01b8a5b7.js",
+    "static/js/runtime-main.df0d458a.js",
     "static/css/5.10cd779e.chunk.css",
     "static/js/5.b8f8414c.chunk.js",
-    "static/css/main.5ad1b549.chunk.css",
+    "static/css/main.1b01ed97.chunk.css",
     "static/js/main.b6557930.chunk.js"
   ]
 }
